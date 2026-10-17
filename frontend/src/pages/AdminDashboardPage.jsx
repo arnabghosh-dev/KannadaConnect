@@ -264,23 +264,6 @@ export const AdminDashboardPage = () => {
               </span>
             </div>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-brand-paper p-6 rounded-3xl border border-brand-line space-y-3">
-              <h3 className="text-base font-bold text-brand-ink">Security & Authorization Notes</h3>
-              <p className="text-xs text-brand-muted leading-relaxed">
-                Every administrative endpoint enforces <code>requireAuth</code> and <code>requireAdmin</code> middleware on Express.js.
-                Passwords are encrypted using bcrypt salt rounds, and tokens are passed via HttpOnly cookies and Bearer headers.
-              </p>
-            </div>
-            <div className="bg-brand-paper p-6 rounded-3xl border border-brand-line space-y-3">
-              <h3 className="text-base font-bold text-brand-ink">Data Seeding & Verification</h3>
-              <p className="text-xs text-brand-muted leading-relaxed">
-                The database seeder (<code>npm run seed</code>) populates all 10 tracks, authentic Kannada phrases, and evaluation accounts.
-                Authoritative quiz answer keys remain server-side and are projected out before sending questions to learners.
-              </p>
-            </div>
-          </div>
         </div>
       )}
 

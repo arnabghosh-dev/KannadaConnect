@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.28.9",
     "axios": "^1.6.8",
+    "kannadaconnect-workspace": "file:..",
     "lucide-react": "^0.363.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

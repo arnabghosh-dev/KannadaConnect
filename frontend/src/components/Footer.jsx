@@ -18,68 +18,12 @@ export const Footer = () => {
               statement <em>“Kannada for Everyone.”</em> Helping beginners, students, professionals,
               and tourists build conversational confidence in practical, everyday situations.
             </p>
-            <div className="mt-4 flex items-center gap-2 text-xs text-brand-orange font-semibold">
-              <Award className="w-4 h-4" />
-              <span>Full-Stack EdTech Architecture with Authentic Cultural Context</span>
-            </div>
-          </div>
-
-          {/* Learn Col */}
-          <div>
-            <h4 className="font-bold text-brand-ink mb-3 uppercase tracking-wider text-xs">
-              Learning Modules
-            </h4>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/categories" className="hover:text-brand-orange transition-colors">
-                  All 10 Categories
-                </Link>
-              </li>
-              <li>
-                <Link to="/phrases" className="hover:text-brand-orange transition-colors">
-                  Phrase Explorer & Audio
-                </Link>
-              </li>
-              <li>
-                <Link to="/flashcards" className="hover:text-brand-orange transition-colors">
-                  Active Recall Flashcards
-                </Link>
-              </li>
-              <li>
-                <Link to="/quizzes" className="hover:text-brand-orange transition-colors">
-                  Interactive Quizzes
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Project Info */}
-          <div>
-            <h4 className="font-bold text-brand-ink mb-3 uppercase tracking-wider text-xs">
-              Project Context
-            </h4>
-            <ul className="space-y-2 text-xs leading-relaxed">
-              <li className="flex items-start gap-1.5">
-                <Globe className="w-4 h-4 text-brand-green flex-shrink-0 mt-0.5" />
-                <span>Audio powered by browser Web Speech API (kn-IN)</span>
-              </li>
-              <li className="flex items-start gap-1.5">
-                <Sparkles className="w-4 h-4 text-brand-orange flex-shrink-0 mt-0.5" />
-                <span>Authoritative quiz grading & MongoDB persistence</span>
-              </li>
-              <li className="flex items-start gap-1.5">
-                <Heart className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
-                <span>Dedicated to Karnataka heritage & everyday learners</span>
-              </li>
-            </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-brand-line flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} KannadaConnect · Open Source & Hackathon Ready</p>
-          <p className="flex items-center gap-1">
-            <span>ಸಿರಿಗನ್ನಡಂ ಗೆಲ್ಗೆ, ಸಿರಿಗನ್ನಡಂ ಬಾಳ್ಗೆ!</span>
-          </p>
+          <p>© {new Date().getFullYear()} KannadaConnect</p>
+          
         </div>
       </div>
     </footer>

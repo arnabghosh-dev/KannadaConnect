@@ -39,10 +39,6 @@ export const LandingPage = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-14">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-greenLight text-brand-green text-xs font-extrabold uppercase tracking-widest border border-brand-green/20">
-              <Compass className="w-3.5 h-3.5" />
-              <span>Kannada Technology Challenge · Kannada for Everyone</span>
-            </div>
 
             <h1 className="text-4xl sm:text-6xl font-black text-brand-ink leading-[1.08] tracking-tight">
               Say hello to everyday practical <span className="text-brand-orange">ಕನ್ನಡ.</span>
