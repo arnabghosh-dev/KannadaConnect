@@ -1,0 +1,15 @@
+{
+  "name": "kannadaconnect-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix frontend install",
+    "seed": "npm --prefix server run seed",
+    "dev:server": "npm --prefix server run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:server": "npm --prefix server test",
+    "test:frontend": "npm --prefix frontend test",
+    "test": "npm --prefix server test && npm --prefix frontend test"
+  }
+}
